@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Image Screen Percentage Calculator",
+    "version": "1.0",
+    "description": "Calculates the percentage of the screen an image occupies.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+}
