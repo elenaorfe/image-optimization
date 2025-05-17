@@ -1,0 +1,15 @@
+{
+  "name": "image-optimization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "calculate-img-sizes": "node calculate-img-sizes.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^24.8.2"
+  }
+}
